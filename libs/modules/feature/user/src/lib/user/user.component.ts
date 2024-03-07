@@ -1,5 +1,6 @@
 import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
+import { MatCardModule } from '@angular/material/card';
 import { MatTableModule } from '@angular/material/table';
 import { Observable } from 'rxjs';
 import { ListUsersService, User } from 'user-data-access';
@@ -18,19 +19,11 @@ export interface PeriodicElement {
 @Component({
   selector: 'lib-user',
   standalone: true,
-  imports: [CommonModule, MatTableModule],
+  imports: [CommonModule, MatTableModule, MatCardModule],
   templateUrl: './user.component.html',
   styleUrl: './user.component.scss',
 })
 export class UserComponent {
-  /*
-  createdAt: string
-  name: string
-  avatar: string
-  email: string
-  biography: string
-  id: string
-  */
   user$: Observable<User[]>;
   displayedColumns: string[] = ['id', 'name', 'email', 'biography'];
 
