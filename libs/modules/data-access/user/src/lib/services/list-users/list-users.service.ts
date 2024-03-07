@@ -11,7 +11,7 @@ export class ListUsersService {
 
   constructor(private http: HttpClient) {}
 
-  getProducts(): Observable<User[]> {
+  getUsers(): Observable<User[]> {
     return this.http.get<User[]>(`${this.apiUrl}/users`, {
       params: {
         page: 1,
