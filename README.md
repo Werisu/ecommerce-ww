@@ -59,3 +59,26 @@ Exemplos:
 npx nx affected:test
 npx nx affected:graph
 ```
+
+# Ecommecer admin
+
+Aplicação de Ecommerce que está sendo desenvolvida durante a **Mentoria Angular Pro**.
+
+<a alt="Nx logo" href="https://nx.dev" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/nrwl/nx/master/images/nx-logo.png" width="45"></a>
+
+✨ **Este workspace foi gerado pelo [Build System Nx.](https://nx.dev)** ✨
+
+## Servir o projeto ecommecer-admin
+
+```
+npx nx run ecommerce-admin:serve
+```
+
+O projeto será servido por padrão em http://localhost:4200/.
+
+## Testes e lint
+
+```
+npx nx run ecommerce-admin:test
+npx nx run ecommerce-admin:lint
+```
