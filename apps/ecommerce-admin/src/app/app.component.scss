@@ -1,0 +1,32 @@
+/* styles.css */
+
+/* Reset de estilos para a lista */
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+/* Estilize os itens da lista */
+li {
+  margin-right: 20px; /* Espaçamento entre os itens */
+}
+
+/* Estilize os links */
+a {
+  text-decoration: none;
+  color: #fafafa; /* Cor do texto */
+  font-weight: bold;
+}
+
+/* Quando o mouse passar por cima dos links */
+a:hover {
+  color: #333; /* Cor diferente ao passar o mouse */
+}
+
+/* Use flexbox para alinhar os itens horizontalmente */
+.menu {
+  justify-content: center; /* Centraliza os itens horizontalmente */
+  padding: 10px; /* Espaçamento interno do menu */
+}
