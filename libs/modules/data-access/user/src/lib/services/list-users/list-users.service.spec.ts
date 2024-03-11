@@ -26,7 +26,7 @@ describe('ListUsersService', () => {
 
   it('should return users correctly', () => {
     // ARRANGE
-    const url = `${service.apiUrl}/users?page=1&limit=6`;
+    const url = `${service.apiUrl}/users`;
     let result: User[] = [];
 
     // ACT
